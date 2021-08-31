@@ -10,16 +10,36 @@
     position: fixed;
     top: 0;
     left: 0;
-    box-shadow: 0px 1px 8px black;
+    box-shadow: 0 1px 8px black;
 }
 .boxNavbar{
     display: flex;
     align-items: center;
     margin-left: 50px;
+    color: blue;
 }
 .linkNavbar{
     margin-left: 20px !important;
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: white !important;
+    text-decoration: none;
 }
+.textFieldColor{
+    color: white;
+}
+.wrapper-class {
+    height: 300px;
+    margin: 10px 50px 50px 50px;
+    padding: 1rem;
+    border: 1px solid #ccc;
 
+}
+.editor-class {
+    background-color:lightgray;
+    height: 70% !important;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+.toolbar-class {
+    border: 1px solid #ccc;
+}
